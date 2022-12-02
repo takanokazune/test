@@ -1,0 +1,56 @@
+*.jpg filter=lfs diff=lfs merge=lfs -text
+## ユニティ##
+
+*.cs差分=シャープテキスト
+*.cgincテキスト
+*.shaderテキスト
+
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+
+
+## git-lfs##
+
+#画像
+*.jpgフィルタ=LFS差分=LFS マージ=LFS-テキスト
+*.jpegフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.pngフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.gifフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.psdフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.aiフィルタ=LFS差分=LFSマージ=LFS-テキスト
+
+#オーディオ
+*.mp3フィルタ=LFS差分=LFS マージ=LFS-テキスト
+*.wavフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.oggフィルタ=LFS差分=LFSマージ=LFS-テキスト
+
+#ビデオ
+*.mp4フィルタ=LFS差分=LFS マージ=LFS-テキスト
+*.movフィルタ=LFS差分=LFS マージ=LFSテキスト
+
+#3Dオブジェクト
+*です。FBXフィルタ = LFS 差分 = LFS マージ = LFS テキスト
+*.fbxフィルタ=LFS 差分=LFSマージ=LFS-テキスト
+*.blendfilter=lfsdiff=lfsmerge=lfs-text
+*.objfilter=LFS diff=LFS merge=LFS-text
+
+#等
+*.afilter=LFS diff=LFS merge=LFS-text
+*.exrフィルタ=LFS 差分=LFS マージ=LFS-テキスト
+*.tgaフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.pdfフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.zipフィルタ=LFS差分=LFS マージ=LFSテキスト
+*.dllフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.unitypackagefilter=lfs diff=lfsmerge=lfs-text
+*.aifフィルタ=LFS差分=LFS マージ=LFS-テキスト
+*.ttfフィルタ=LFS差分=LFSマージ=LFS-テキスト
+*.rnsフィルタ=LFS 差分=LFSマージ=LFS-テキスト
+*.reasonfilter=lfs diff=lfsmerge=lfs-text
+*.lxoフィルタ=LFS 差分=LFSマージ=LFS-テキスト
