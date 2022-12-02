@@ -15,10 +15,14 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        span++;
-        if (span >= 120) {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
             transform.Translate(+0.5f, 0, 0);
-            span = 0;
         }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            transform.Translate(-0.5f, 0, 0);
+        }
+        
     }
 }
